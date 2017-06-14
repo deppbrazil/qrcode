@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QR CODE</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-qrcode-0.14.0.min.js"></script>
+</head>
+
+<body>
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+    $('#qrcode').qrcode({
+        width: 120,
+        height: 120,
+        text: "Hello"
+    });
+    </script>
+</body>
+
+</html>
