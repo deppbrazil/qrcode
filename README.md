@@ -6,10 +6,14 @@
 
 ## QR Code com jQuery 
 
-A lib em jQuery desenha dinamicamente com SVG o código que vai ser escaneado pelo leitor de qrcode.
+Com essa lib do jquery você informa no campo 'text: ""' a url onde você quer levar o usuario, op jquery desenha dinamicamente essa imagem para o leitor de qrcode.
 
 ``` bash
-$('#qrcode').qrcode({width: 120, height: 120, text: "Hello"});
+$('#qrcode').qrcode({
+	width: 120, 
+	height: 120, 
+	text: "Hello"
+});
 ```
 
 
