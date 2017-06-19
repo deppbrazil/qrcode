@@ -6,13 +6,13 @@
 
 ## QR Code com jQuery 
 
-Com essa lib do jquery você informa no campo 'text: ""' a url onde você quer levar o usuario, op jquery desenha dinamicamente essa imagem para o leitor de qrcode.
+Com essa lib do jquery você informa no campo ````bash text: "" ``` a url onde você quer levar o usuario, e o jquery desenha dinamicamente essa imagem para o leitor de qrcode.
 
 ``` bash
 $('#qrcode').qrcode({
 	width: 120, 
 	height: 120, 
-	text: "Hello"
+	text: "https://github.com/deppbrazil"
 });
 ```
 
