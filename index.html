@@ -8,15 +8,46 @@
     <script type="text/javascript" src="lib/jquery-qrcode-0.14.0.min.js"></script>
 </head>
 
-<body>
+<body>    
     <div id="qrcode"></div>
-    <script type="text/javascript">
-    $('#qrcode').qrcode({
-        width: 120,
-        height: 120,
-        text: "https://github.com/deppbrazil"
-    });
-    </script>
-</body>
 
+        <!-- exemplo 1 -->
+        <script>
+            var atualURL = document.URL;
+            window.onload = function() {
+            jQuery('#qrcode').qrcode({
+            text : atualURL
+        });
+    }
+       </script>
+
+
+       <!-- exemplo 2 -->
+       <script>
+            var atualURL = document.URL;
+            $('#qrcode').qrcode({
+                width: 120,
+                height: 120,
+                text: atualURL
+        }); 
+        </script>
+
+
+        <!-- exemplo 3 -->
+        <script>
+            var atualURL = document.URL;
+            window.addEventListener('load', function(){QRCode('#qrcode', atualURL)}, false);
+            function QRCode(selector, url) {
+                $(selector).qrcode({
+                width: 120,
+                height: 120,
+                text: url
+            });
+        }
+        </script>
+        
+</body>
 </html>
+
+
+

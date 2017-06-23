@@ -4,17 +4,10 @@
   </a>
 </p>
 
-## QR Code com jQuery 
+## Gerador de QR Code com jQuery 
 
-Com essa lib do jquery você informa no campo `text: ""` a url onde você quer levar o usuario, e o jquery desenha dinamicamente essa imagem para o leitor de qrcode.
+Esses 3 exemplos mostra como usar o jQuery e o javaScript para gerar seus QR Code com base na url atual
 
-``` bash
-$('#qrcode').qrcode({
-	width: 120, 
-	height: 120, 
-	text: "https://github.com/deppbrazil"
-});
-```
 
 
 
