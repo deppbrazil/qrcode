@@ -6,7 +6,7 @@
 
 ## Gerador de QR Code com jQuery 
 
-Esses 3 exemplos mostra como usar o jQuery e o javaScript para gerar seus QR Code com base na url atual
+3 exemplos de uma aplicação em js gerando QRCode com base na url atual.
 
 
 
