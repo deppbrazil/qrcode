@@ -1,0 +1,27 @@
+{
+  "name": "qrcode-jquery",
+  "version": "1.0.0",
+  "description": "generate qrcode with jquery",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deppbrazil/qrcode-jquery.git"
+  },
+  "keywords": [
+    "qrcode",
+    "jquery"
+  ],
+  "author": "Mir Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deppbrazil/qrcode-jquery/issues"
+  },
+  "homepage": "https://github.com/deppbrazil/qrcode-jquery#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-qrcode": "github:lrsjng/jquery-qrcode"
+  }
+}

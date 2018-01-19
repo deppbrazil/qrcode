@@ -3,9 +3,11 @@
 
 <head>
     <title>QR CODE</title>
-    <meta charset="UTF-8">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/jquery-qrcode-0.14.0.min.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1, maximum-scale=1, minimum-scale=1">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery-qrcode/dist/jquery-qrcode.min.js"></script>
 </head>
 
 <body>    
@@ -15,12 +17,11 @@
         <script>
             var atualURL = document.URL;
             window.onload = function() {
-            jQuery('#qrcode').qrcode({
-            text : atualURL
-        });
-    }
+                jQuery('#qrcode').qrcode({
+                text : atualURL
+                });
+            }
        </script>
-
 
        <!-- exemplo 2 -->
        <script>
@@ -29,9 +30,8 @@
                 width: 120,
                 height: 120,
                 text: atualURL
-        }); 
+            }); 
         </script>
-
 
         <!-- exemplo 3 -->
         <script>
@@ -39,13 +39,12 @@
             window.addEventListener('load', function(){QRCode('#qrcode', atualURL)}, false);
             function QRCode(selector, url) {
                 $(selector).qrcode({
-                width: 120,
-                height: 120,
-                text: url
-            });
-        }
+                    width: 120,
+                    height: 120,
+                    text: url
+                });
+            }
         </script>
-        
 </body>
 </html>
 
