@@ -1,9 +1,5 @@
-# QRCode 
+# QRCode #
+## Generate QRcode with JQuery ##
 
-## Gerando QRCode e validando URL com jQuery 
-
-* O QRCode é desenhado em SVG dinamicamente com um lib em jQuery
-* Passei a URL em uma variável, sendo assim qualquer servidor que estiver a aplicação o QRCode é desenhado automaticamente apontando sempre o caminho atual para o leitor de QRCode
-* no index coloquei 3 exemplos difentes com a mesma lógica de armazenar a URL em uma variável
-
-
+* Install dependences: `npm install`
+> This library you using for draw QRCode in your applications, because see for example we pass the URL in an variable in javascript, well therefore the QRcode is dynamic's drawing.
